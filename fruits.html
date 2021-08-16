@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/fruits.css">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+  <title>Fruit Bazaar</title>
+</head>
+
+<body>
+  <div>
+    <nav class="navbar navbar-expand-xl navbar-light navbar-fixed-top scrollbg-show sticky-top">
+
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          &nbsp;
+          <li>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            &nbsp;&nbsp;&nbsp;
+          </li>
+          <li>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+            &nbsp;&nbsp;&nbsp;
+          </li>
+          <li>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            &nbsp;&nbsp;&nbsp;
+          </li>
+          <li>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            &nbsp;&nbsp;&nbsp;
+          </li>
+          <li>
+            <a href="#" style="text-decoration: none;"><i class="bi bi-telephone">&nbsp;+91-9876543210</i></a>
+            &nbsp;&nbsp;&nbsp;
+          </li>
+          <li>
+            <a href="#" style="text-decoration: none;"><i
+                class="bi bi-envelope">&nbsp;websupportfruitbazaar@mailme.com</i></a>
+            &nbsp;&nbsp;&nbsp;
+          </li>
+        </ul>
+
+      </div>
+      <div class="pull-right">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="#" style="text-decoration: none;font-size: small;"><svg xmlns="http://www.w3.org/2000/svg"
+                style="font-size: small;" width="16" height="16" fill="currentColor" class="bi bi-pin-map"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8l3-4z" />
+                <path fill-rule="evenodd"
+                  d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z" />
+              </svg>&nbsp;Malad West</a>
+            &nbsp;&nbsp;&nbsp;
+          </li>
+          <li>
+            <a href="#" style="text-decoration: none;font-size: small;"><i class="bi bi-truck">&nbsp;Track Order</i></a>
+            &nbsp;&nbsp;&nbsp;
+          </li>
+          <li>
+            <a href="#" style="text-decoration: none;font-size: medium;"><i class="bi bi-person-fill"></i>&nbsp;LogIn |
+              SignUp</i></a>
+            &nbsp;&nbsp;&nbsp;
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+  </div>
+  <nav class="navbar navbar-light" style="background-color: white;">
+    <div class="container-fluid">
+      <img src="images/logo.jpg" height="200" width="">
+      <form class="d-flex" style="align-items: center;">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" size="100pt"
+          style="align-self: flex-end;">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      <span>
+        <button type="button" class="btn btn-light"><i class="bi bi-cart">Cart</i></button>
+      </span>
+    </div>
+  </nav>
+  <nav class="navbar navbar-expand-xl " style="background-color: white;">
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active" style="background-color: lightgreen;">
+          <a class="nav-link" href="#">Shop By Category <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Categories
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Fresh Fruits</a></li>
+            <li><a class="dropdown-item" href="#">Healthy Veggies</a></li>
+            <li><a class="dropdown-item" href="#">Dry Fruits</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Make My Basket</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Health</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Videos</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            More
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Order Details</a></li>
+            <li><a class="dropdown-item" href="#">Return Policy</a></li>
+            <li><a class="dropdown-item" href="#">Rate US</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Take a tour</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <img src="images/veggies.png" width="100%">
+  </div>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container-fluid text-center">
+      <h1 class="display-4"
+        style="font-family: Brush Script MT, Brush Script Std, cursive;background-color: lightpink;fill: lightpink;">
+        FRUITS</h1>
+    </div>
+  </div>
+  <div class="card-group">
+    <div class="card">
+      <img class="card-img-top" src="images/aam.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Mangoes</h5>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="images/anaar.jpeg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Pomegranate</h5>
+
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="images/kela.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Bananas</h5>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="images/santra.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Bananas</h5>
+      </div>
+    </div>
+  </div>
+  <div class="card-group">
+    <div class="card">
+      <img class="card-img-top" src="images/seb.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Apples</h5>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="images/pina.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Pinapple</h5>
+
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="images/guava.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Guava</h5>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="images/grapes.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Grapes</h5>
+      </div>
+    </div>
+  </div>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container-fluid text-center">
+      <h1 class="display-4"
+        style="font-family: Brush Script MT, Brush Script Std, cursive;background-color: lightsteelblue;">
+        Veggies</h1>
+    </div>
+  </div>
+  <div class="card-group">
+    <div class="card">
+      <img class="card-img-top" src="images/veg1.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Cabbage</h5>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="images/veg2.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Cauliflower</h5>
+
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="images/veg3.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Brinjal</h5>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="images/veg4.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Peas</h5>
+      </div>
+    </div>
+  </div>
+  <div class="card-group">
+    <div class="card">
+      <img class="card-img-top" src="images/veg5.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Carrots</h5>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="images/veg6.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Capsicum</h5>
+
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="images/veg7.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Lady Finger</h5>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="images/veg8.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Pumpkin</h5>
+      </div>
+    </div>
+  </div>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container-fluid text-center">
+      <h1 class="display-4"
+        style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;background-color: burlywood;">
+        About Us</h1>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <img src="images/pic.jpg" width="85%" style="height: 35rem;text-align: center;">
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto obcaecati itaque ipsa maxime, fugit reprehenderit,
+      nihil quo beatae molestias cum placeat quam cupiditate laudantium. Inventore cum ipsa consequatur quia eius!Lorem
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio tenetur, culpa illo ea quibusdam inventore
+      excepturi fugiat quos nesciunt, blanditiis perferendis? Fugit pariatur totam minima ipsum facilis nemo tempore
+      est!
+    </p>
+  </div>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container-fluid text-center">
+      <h1 class="display-4"
+        style="font-family: Brush Script MT, Brush Script Std, cursive;background-color: burlywood;">
+        Gallery</h1>
+    </div>
+  </div>
+  <div class="card-group">
+    <div class="card">
+
+      <div class="">
+        <img src="images/gal1.jpg" class="rounded card-img-top" style="width:100%;object-fit: fill;">
+      </div>
+
+    </div>
+    <div class="card">
+
+      <div class="card-img-top">
+        <img src="images/gal2.jpg" class="rounded card-img-top" style="width:100%;object-fit: fill;">
+      </div>
+
+    </div>
+    <div class="card">
+
+      <div class="card-img-top">
+        <img src="images/gal3.jpg" class="rounded card-img-top" style="width:100%;object-fit: fill;">
+      </div>
+
+    </div>
+  </div>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container-fluid text-center">
+      <h1 class="display-4"
+        style="font-family: Brush Script MT, Brush Script Std, cursive;background-color: lightseagreen;">
+        Videos</h1>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe width="460" height="315" src="https://www.youtube.com/embed/t85qtcV4Pd8" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="embed-responsive embed-responsive-4by3">
+          <iframe width="460" height="315" src="https://www.youtube.com/embed/t85qtcV4Pd8" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container-fluid text-center">
+      <h1 class="display-4"
+        style="font-family: Brush Script MT, Brush Script Std, cursive;background-color: whitesmoke;">
+        Contact Us</h1>
+    </div>
+  </div>
+  <div class="container">
+    <hr>
+    <div class="row">
+      <div class="col-sm-8">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11880.492291371422!2d12.4922309!3d41.8902102!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x28f1c82e908503c4!2sColosseo!5e0!3m2!1sit!2sit!4v1524815927977"
+          width="100%" height="320" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+
+      <div class="col-sm-4" id="contact2">
+        <span>
+          <i class="bi bi-geo-alt icon-green">Our Office Address</i>
+        </span>
+        <p>#3-ja-20 yashwantpur Mumbai Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, vero.
+        <h4 class="pt-2">Our Timing</h4>
+        <i class="bi bi-clock" style="color:rgb(32, 160, 20)"></i>10:00 AM-10:00 PM<br>
+        <h4 class="pt-2">Call us</h4>
+        <i class="bi bi-telephone-fill" style="color:rgb(32, 160, 20)"></i> <a href="tel:+"> 123456 </a><br>
+        <h4 class="pt-2">Email</h4>
+        <i class="bi bi-envelope-fill" style="color:rgb(32, 160, 20)"></i> <a href="">test@test.com</a><br>
+      </div>
+    </div>
+  </div>
+
+
+
+  <br><br>
+</body>
+
+</html>
